@@ -1,0 +1,40 @@
+@charset "utf-8";
+.center{
+	padding-top: 55px;
+	padding-bottom: 55px;
+	text-align: center;
+}
+.center h2{
+	font-size: 38px;
+	font-weight: 800;
+	font-family: haettenschweiler;
+}
+.center p{
+	padding-top: 10px;
+	font-size: 16px;
+}
+.gmap-area{
+	background-image: url(../images/map.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
+h5{
+	font-weight: bold;
+}
+.contact-form .form-group label {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 300;
+}
+.form-control{
+	border-color: #f2f2f2;
+	box-shadow: none;
+}
+.btn-primary{
+	padding: 8px 20px;
+	background: #C52D2F;
+	border: none;
+	margin-top: 10px;
+}

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--采用最新版本的IE文档模式渲染页面-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--移动设备优先，让viewport等于设备宽度，初始化缩放比例为1-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/blog-item.css"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link href="css/main-header.css" rel="stylesheet">
+    <link href="css/main-footer.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/main.css"/>-->
+    <!--引入bootstrap的css压缩版，比普通版的体积小-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.js"></script>
+
+    <![endif]-->
+    <!--html5shiv.js让IE6,7,8支持html5-->
+    <!--respond.js让IE6,7,8支持媒体查询-->
+</head>
+<body>
+
+<!--头部页面开始-->
+<header id="header">
+    <!--头部顶部开始 -->
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <!-- 左边电话开始-->
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number">
+                        <p>
+                            <!-- 电话图标-->
+                            <i class="fa fa-phone-square"></i>
+                            +0123 456 70 90
+                        </p>
+                    </div>
+                </div>
+                <!-- 左边电话结束-->
+                <!-- 右边图标及搜索框开始-->
+                <div class="col-sm-6 col-xs-8">
+                    <div class="header-top-right">
+                        <!-- 图标开始-->
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-skype"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--图标结束 -->
+                        <!-- 搜索框开始-->
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                <a href="#" class="fa fa-search"></a>
+                            </form>
+                        </div>
+                        <!-- 搜索框结束-->
+                    </div>
+                </div>
+                <!-- 右边图标及搜素框结束-->
+            </div>
+        </div>
+    </div>
+    <!-- 头部顶部结束-->
+    <!-- 头部导航开始-->
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                        <ul class="nav dropdown-menu">
+                            <li><a href="blog-item.html">Blog Single</a></li>
+                            <li class="active"><a href="pricing.html">Pricing</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav>
+    <!-- 头部导航结束-->
+</header>
+<!--头部页面结束-->
+</header>
+
+<div class="blog-a">
+    <h2 class="text-center">Blogs</h2>
+    <p class="text-center">
+        Pellentesque habitant morbi tristique senectus
+        et netus et malesuada
+    </p>
+</div>   <!--blogs-->
+<div class="container blog-b">
+    <div class="row">
+
+       <div class="col-md-8">
+           <div class="blog-img">
+           <img src="images/blog/blog2.jpg" class="img-responsive" alt="2"/>
+           </div>     <!--自适应图片-->
+           <div class="row blog-stronga">
+                <div class="col-md-2 col-xs-12 col-sm-2 blog-b blog-strongaa">
+                      <span>
+            <strong class="blog-stronga text-center">07 NOV</strong>
+        </span>
+        <span class="blog-one">
+                <strong class="fa fa-user"></strong>
+                   <a href="#">John Doe</a>
+        </span>
+        <span class="blog-two">
+            <strong class="fa fa-comment"></strong>
+            <strong>2</strong>
+            <span class="blog-three">
+                <a href="#">Comments</a>
+            </span>
+        </span >
+        <span class="blog-fire">
+            <strong class="fa fa-heart"></strong>
+           <a href="#">56 Likes</a>
+        </span>
+                </div>
+               <div class="col-md-10 col-xs-12 col-sm-10 blog-c">
+                   <h2 class="blog-liua">Consequat bibendum quam </h2>
+         <p class="blog-liub">
+             Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget
+             dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget
+             posuere a,consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta
+             lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at
+             mi. Morbi at turpis id urna ullamcorper ullamcorper.
+         </p>
+         <p class="blog-liub">
+             Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor
+             convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a,
+             consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel
+             semper.
+         </p>
+             <div class="blog-coll">
+                 <b>Tag</b>
+                 <a href="#">cool</a>
+                 <strong> / </strong>
+                 <a href="#">Creative</a>
+                 <strong> / </strong>
+                 <a href="#">Dubttstep</a>
+             </div>
+               </div>
+           </div>   <!--NOW-->
+           <div class="media reply_section">
+               <div class="pull-left post_reply text-center">
+                   <a href="#"><img src="images/blog/boy.png" class="img-circle" alt="" /></a>
+                   <ul>
+                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fa fa-google-plus"></i> </a></li>
+                   </ul>
+               </div>   <!--boy图片-->
+               <div class="media-body post_reply_content">
+                   <h3>Antone L. Huges</h3>
+                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                       velit esse cillum dolore eu fugiat nulla pariaturp</p>
+                   <p><strong>Web:</strong> <a href="http://www.shapebootstrap.net">www.shapebootstrap.net</a></p>
+               </div>     <!--Antone L. Huges-->
+           </div>
+
+           <h3 class="blog-comments">5 Comments</h3>             <!--5 Comments-->
+           <div class="marsh">
+               <div class="pull-left blog-marka">
+                   <a href="#"><img src="images/blog/girl.png" class="blog-marka-img" alt="1" /></a>
+               </div>    <!--girl-->
+               <div class="blog-marka-reply">
+                   <h3>Marsh</h3>
+                   <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                   <a href="#">Reply</a>
+               </div>
+           </div>        <!--Mark1-->
+           <div class="marsha">
+               <div class="pull-left blog-marka">
+                   <a href="#"><img src="images/blog/boy2.png" class="blog-marka-img" alt="1" /></a>
+               </div>
+               <div class="blog-marka-reply">
+                   <h3>Marsh</h3>
+                   <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                   <a href="#">Reply</a>
+               </div>
+           </div>        <!--Mark2-->
+           <div class="marshb">
+               <div class="pull-left blog-marka">
+                   <a href="#"><img src="images/blog/boy3.png" class="blog-marka-img" alt="1" /></a>
+               </div>
+               <div class="blog-marka-reply">
+                   <h3>Marsh</h3>
+                   <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                   <a href="#">Reply</a>
+               </div>
+           </div>        <!--Mark3-->
+
+
+
+           <div class="leave">
+               <div class="status alert alert-success" style="display: none"></div>
+               <div class="message_heading">
+                   <h4>Leave a Replay</h4>
+                   <p>Make sure you enter the(*)required information where indicate.HTML code is not allowed</p>
+               </div>
+
+               <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                   <div class="row">
+                       <div class="col-sm-5">
+                           <div class="form-group">
+                               <label>Name *</label>
+                               <input type="text" class="form-control" required="required">
+                           </div>
+                           <div class="form-group">
+                               <label>Email *</label>
+                               <input type="email" class="form-control" required="required">
+                           </div>
+                           <div class="form-group">
+                               <label>URL</label>
+                               <input type="url" class="form-control">
+                           </div>
+                       </div>
+                       <div class="col-sm-7">
+                           <div class="form-group">
+                               <label>Message *</label>
+                               <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                           </div>
+                           <div class="form-group">
+                               <button type="submit" class="btn-a btn-lg" required="required">Submit Message</button>
+                           </div>
+                       </div>
+                   </div>
+               </form>
+           </div>               <!--Leave a Replay-->
+
+       </div>   <!--栅格8-->
+
+
+
+
+       <div class="col-md-4">
+           <form>
+               <input type="text" class="form-control search_box" autocomplete="off" placeholder="Search Here">
+           </form>      <!-- input输入框-->
+           <div class="widget categories">
+               <h3>Recent Comments</h3>
+               <div class="row">
+                   <div>
+                       <div class="single_comments">
+                       <img src="images/blog/avatar3.png" alt="2" class=" img-responsive" >
+                           <div class="entry-meta small muted">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+                               <span>By <a href="#">Alex</a> On <a href="#">Creative</a></span>
+                           </div>
+                       </div>
+                       <div class="single_comments">
+                           <img src="images/blog/avatar3.png" alt="3"  class=" img-responsive">
+                           <div class="entry-meta small muted">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+                               <span>By <a href="#">Alex</a> On <a href="#">Creative</a></span>
+                           </div>
+                       </div>
+                       <div class="single_comments">
+                           <img src="images/blog/avatar3.png" alt="4"  class=" img-responsive">
+
+                           <div class="entry-meta small muted">
+                               <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do </p>
+                               <span>By <a href="#">Alex</a>  On <a href="#">Creative</a></span>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
+           </div>      <!--Recent Comments-->
+           <div class="widget categories">
+               <h3>Categories</h3>
+               <div class="row">
+                   <div class="col-sm-6">
+                       <ul class="blog_category">
+                           <li class="blog-liue"><a href="#">Computers <span class="badge">04</span></a></li>
+                           <li class="blog-liue"><a href="#">Smartphone <span class="badge">10</span></a></li>
+                           <li class="blog-liue"><a href="#">Gedgets <span class="badge">06</span></a></li>
+                           <li class="blog-liue"><a href="#">Technology <span class="badge">25</span></a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>     <!--Categories-->
+           <div class="widget archieve">
+               <h3>Archieve</h3>
+               <div class="row">
+                   <div class="col-sm-12">
+                       <ul class="blog_archieve">
+                           <li><a href="#"><i class="fa fa-angle-double-right"></i> December 2013 <span class="pull-right">(97)</span></a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right"></i> November 2013 <span class="pull-right">(32)</span></a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right"></i> October 2013 <span class="pull-right">(19)</span></a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right"></i> September 2013 <span class="pull-right">(08)</span></a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>   <!--Archieve-->
+           <div class="widget tags">
+               <h3>Tag Cloud</h3>
+               <ul class="tag-cloud">
+                   <li><a class="btn btn-xs btn-danger" href="#">Apple</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Barcelona</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Office</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Ipod</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Stock</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Race</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">London</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Football</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Porche</a></li>
+                   <li><a class="btn btn-xs btn-danger" href="#">Gadgets</a></li>
+               </ul>
+           </div>   <!--Tag Cloud-->
+           <div class="widget blog_gallery">
+               <h3>Our Gallery</h3>
+               <ul class="sidebar-gallery">
+                   <li><a href="#"><img src="images/blog/gallery1.png" alt=""></a></li>
+                   <li><a href="#"><img src="images/blog/gallery2.png" alt=""></a></li>
+                   <li><a href="#"><img src="images/blog/gallery3.png" alt=""></a></li>
+                   <li><a href="#"><img src="images/blog/gallery4.png" alt=""></a></li>
+                   <li><a href="#"><img src="images/blog/gallery5.png" alt=""></a></li>
+                   <li><a href="#"><img src="images/blog/gallery6.png" alt=""></a></li>
+               </ul>
+           </div>   <!--Our Gallery-->
+       </div>    <!-- 栅格4-->
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--尾部页面开始-->
+<footer>
+    <!-- 尾部顶部开始-->
+    <div id="foot-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 wow animated fadeInDown">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">We are hiring</a></li>
+                        <li><a href="#">Meet the team</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 wow animated fadeInDown" >
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                        <li><a href="#">Ticket system</a></li>
+                        <li><a href="#">Billing system</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 wow animated fadeInDown">
+                    <h3>Developers</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">SEO Marketing</a></li>
+                        <li><a href="#">Theme</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Email Marketing</a></li>
+                        <li><a href="#">Plugin Development</a></li>
+                        <li><a href="#">Article Writing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 wow animated fadeInDown">
+                    <h3>Our Partners</h3>
+                    <ul>
+                        <li><a href="#">Adipisicing Elit</a></li>
+                        <li><a href="#">Eiusmod</a></li>
+                        <li><a href="#">Tempor</a></li>
+                        <li><a href="#">Veniam</a></li>
+                        <li><a href="#">Exercitation</a></li>
+                        <li><a href="#">Ullamco</a></li>
+                        <li><a href="#">Laboris</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    © 2013 All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部顶部结束-->
+</footer>
+<!--尾部页面结束-->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<!--引入jquery，bootstrap的js是基于jquery，所以要在boostrap之前引入-->
+<script src="bootstrap/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<!--引入boostrap.js，后面bootstrap的插件都是基于bootstrap.js的-->
+<script src="js/wow.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

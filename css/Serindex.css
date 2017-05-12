@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+body{
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+  line-height: 22px;
+}
+/*头部顶部样式设置开始*/
+header .header-top{
+  padding: 10px 0;
+  background: #191919;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+  color: #fff;
+}
+header .header-top-right{
+  text-align: right;
+}
+header .header-top-right ul{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+header .header-top-right ul li{
+  display: inline-block;
+}
+header .header-top-right ul li a{
+  display: inline-block;
+  color: #fff;
+  background: #404040;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+header .header-top p{
+  margin: 0;
+}
+header .search{
+  display: inline-block;
+}
+header .search a{
+  color: #fff;
+  text-decoration: none;
+}
+header input.search-form{
+  background: transparent;
+  border: 0 none;
+  width: 60px;
+  padding: 0 10px;
+  color: #FFF;
+  transition:400ms;
+}
+input.search-form::-webkit-input-placeholder{
+  color: transparent;
+}
+
+input.search-form:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input.search-form:hover {
+  width: 180px;
+}
+
+/*导航开始*/
+header nav.navbar{
+  border-radius: 0;
+  padding: 15px 0 0 0;
+  margin-bottom: 0;
+  background: #151515;
+
+}
+header .navbar .container .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+  padding: 0;
+}
+
+header nav.navbar ul{
+  margin-top: 12px;
+}
+.navbar-nav>li{
+  margin-left: 35px;
+  position: relative;
+  padding-bottom: 28px;
+}
+header nav.navbar .container .navbar-collapse>ul>li>a{
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+header nav.navbar .container ul>li:hover>a,
+header nav.navbar .container ul>li.active>a,
+header nav.navbar .container ul>li:active>a{
+  background-color: #c52d2f;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #c52d2f;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .dropdown-menu{
+  background: #151515;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: auto;
+  min-width: 180px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+  display: block;
+  padding: 8px 15px;
+  color: #fff;
+}
+/*导航结束*/
+
+section{
+  margin-top: 70px;
+}
+/*第一块 文字*/
+.container .word p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+/*第二块 图标加文字*/
+section .container .row {
+  margin-top: 55px;
+}
+.container .row em.fa {
+  font-size: 48px;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  border-radius: 100%;
+  border: 3px solid #cccccc;
+  color: #c52d2f;
+}
+.container .row em.fa:hover {
+  background: #c52d2f;
+  color: white;
+  border: 0;
+}
+.container .row .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+.container .row .icon div:first-child{
+  margin-right: 20px;
+}
+.container .row .icon div:last-child{
+  text-align: left;
+}
+.container .row .icon strong{
+  font-size: 20px;
+}
+.container .row .icon p{
+  margin-top: 10px;
+  font-size: 16px;
+}
+  /*第三块 文字*/
+.conter {
+  padding: 20px 0 0;
+  margin: 60px 0 15px;
+  background: #F3F3F3;
+  position: relative;
+}
+.conter p {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.conter .sanj h4 {
+  background: #c52d2f;
+  border-radius: 3px;
+  height: 24px;
+  margin: 0;
+  font-size: 14px;
+  padding: 2px 5px;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+}
+.conter .sanj h4 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.conter .sanj h4 span {
+  border: 8px solid transparent ;
+  border-top-color: #c52d2f ;
+}
+.conter .sanj h4 span:first-child {
+  position: absolute;
+  top: 19px;
+  left: -8px;
+}
+.conter .sanj h4 span:last-child {
+  position: absolute;
+  top: 19px;
+  right: -8px;
+}
+/*第五块 图标加文字*/
+.tws {
+  margin-top: 60px;
+}
+.tws .tw {
+  margin-bottom: 100px;
+}
+.tws .tw > img {
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+  margin: 0 auto;
+}
+.tws .tw h2 {
+  margin: 0;
+}
+.tws .tw h2 img {
+  width: 30px;
+  height: 40px;
+}
+.tws .tw p {
+  margin: 30px 0 20px 0;
+  padding: 5px 20px;
+}
+.tws .tw h4 span {
+  font-style: oblique;
+}
+
+/*尾部顶部样式开始设置*/
+#foot-container{
+  background: #f5f5f5;
+  border-bottom: 5px solid #c52d2f;
+  font-size: 14px;
+  padding: 70px 0;
+}
+#foot-container .row a{
+  color: #808080;
+}
+#foot-container .row a:hover{
+  text-decoration: none;
+  color: brown;
+}
+#footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background: #2e2e2e;
+  text-align: center;
+}
+#footer .lft{
+  text-align: left;
+}
+#footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#footer ul:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+#footer ul li{
+  display: inline-block;
+  padding: 5px 0;
+  margin-left: 15px;
+
+}
+#footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+#footer ul li a:hover{
+  color:#c52d2f ;
+}
+/*尾部顶部样式设置结束*/

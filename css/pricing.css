@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: #4e4e4e;
+    line-height: 22px;
+}
+/*头部顶部样式设置开始*/
+header .header-top{
+    padding: 10px 0;
+    background: #191919;
+    border-bottom: 1px solid #222;
+    line-height: 28px;
+    color: #fff;
+}
+header .header-top-right{
+    text-align: right;
+}
+header .header-top-right ul{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+header .header-top-right ul li{
+    display: inline-block;
+}
+header .header-top-right ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #404040;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 2px;
+}
+header .header-top p{
+    margin: 0;
+}
+header .search{
+    display: inline-block;
+}
+header .search a{
+    color: #fff;
+    text-decoration: none;
+}
+header input.search-form{
+    background: transparent;
+    border: 0 none;
+    width: 60px;
+    padding: 0 10px;
+    color: #FFF;
+    transition:400ms;
+}
+input.search-form::-webkit-input-placeholder{
+    color: transparent;
+}
+
+input.search-form:hover::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input.search-form:hover {
+    width: 180px;
+}
+
+/*导航开始*/
+header nav.navbar{
+    border-radius: 0;
+    padding: 15px 0 0 0;
+    margin-bottom: 0;
+    background: #151515;
+
+}
+header .navbar .container .navbar-brand {
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+    padding: 0;
+}
+
+header nav.navbar ul{
+    margin-top: 12px;
+}
+.navbar-nav>li{
+    margin-left: 35px;
+    position: relative;
+    padding-bottom: 28px;
+}
+header nav.navbar .container .navbar-collapse>ul>li>a{
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
+}
+header nav.navbar .container ul>li:hover>a,
+header nav.navbar .container ul>li.active>a,
+header nav.navbar .container ul>li:active>a{
+    background-color: #c52d2f;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #c52d2f;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav .dropdown-menu{
+    background: #151515;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: auto;
+    min-width: 180px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+}
+/*导航结束*/
+
+section{
+    margin: 70px 0 40px;
+}
+/*第一块 文字*/
+.container .word p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.box{
+    text-align: center;
+    margin-top: 55px;
+}
+.box ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.box ul li span{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box .headone{
+    margin-left: -10px;
+    background-color: rgb(226, 79, 67);
+}
+
+.box .headthree{
+    margin-left: -10px;
+    background-color: rgb(243, 156, 18);
+}
+.box h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color:white;
+    font-size:36px;
+}
+.bri{
+    position: relative;
+    margin-bottom: 70px;
+}
+/*li的偶数变色条*/
+.box ul li:nth-child(even){
+    background: #f5f5f5;
+}
+.box ul li:nth-child(3){
+    background: #FAFAFA;
+}
+.box ul li:nth-child(5){
+    background: #FAFAFA;
+}
+.box ul li:nth-child(7){
+    background: #FAFAFA;
+}
+.ul-footer{
+    height: 40px;
+}
+.box .btn{
+    background:#E24F43;
+    position: relative;
+    padding: 5px 20px;
+    color:#fff;
+    margin-top: 5px;
+    border-radius:4px;
+    border: none;
+    font-size: 15px;
+}
+.box .btn:before{
+    border-color: #E24F43 transparent transparent;
+    border-radius: 2px 0 0 0;
+    border-style: solid;
+    border-width: 12px;
+    bottom: -11px;
+    content: "";
+    height: 0;
+    left: -10px;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+}
+.box .btn:after{
+    border-color: #E24F43 transparent transparent;
+    border-radius: 5px 0 0 0;
+    border-style: solid;
+    border-width: 12px;
+    bottom: -11px;
+    content: "";
+    height: 0;
+    right: -10px;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+}
+.box .headtwo{
+    margin-left: -10px;
+    background-color:#27AE60;
+}
+.box a.btn2{
+    background-color: #27AE60;
+}
+.box a.btn2:before,.box a.btn2:after{
+    border-color: #27AE60 transparent transparent;
+}
+
+.box .headthree{
+    margin-left: -10px;
+    background-color: darkorange;
+}
+.box a.btn3{
+    background-color: darkorange;
+}
+.box a.btn3:before,.box a.btn3:after{
+    border-color: darkorange transparent transparent;
+}
+.box img{
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+.box .headfour{
+    margin-left: -10px;
+    background-color: #5C5C5C;
+}
+.box a.btn4{
+    background-color: #5C5C5C;
+}
+.box a.btn4:before,.box a.btn4:after{
+    border-color: #5C5C5C transparent transparent;
+}
+
+.box .headfive{
+    margin-left: -10px;
+    background-color: #E24F43;
+}
+.box a.btn5{
+    background-color: #E24F43;
+}
+.box a.btn5:before,.box a.btn5:after{
+    border-color: #E24F43 transparent transparent;
+}
+
+
+
+/*尾部顶部样式开始设置*/
+#foot-container{
+    background: #f5f5f5;
+    border-bottom: 5px solid #c52d2f;
+    font-size: 14px;
+    padding: 70px 0;
+}
+#foot-container .row a{
+    color: #808080;
+}
+#foot-container .row a:hover{
+    text-decoration: none;
+    color: brown;
+}
+#footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+    text-align: center;
+}
+#footer .lft{
+    text-align: left;
+}
+#footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#footer ul:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#footer ul li{
+    display: inline-block;
+    padding: 5px 0;
+    margin-left: 15px;
+
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul li a:hover{
+    color:#c52d2f ;
+}
+/*尾部顶部样式设置结束*/
